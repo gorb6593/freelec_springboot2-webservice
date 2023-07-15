@@ -5,6 +5,7 @@
 5. 로그인 기능 (~23-07-07) O 
 6. aws (~23-07-09) 하는중
 7. (putty에서 aws rds 접속이 안되는데 권한 문제인 것 같은데 권한허용해도 안되서 여기하는중)
+ec2 자체의 보안그룹에서 보안 인바운드맞추기...
 8. 배포 
 9. 자동화 
 10. 마무리 
@@ -39,3 +40,4 @@ no supported authentication methods available (server sent publickey gssapi-keye
 4. DB서버 시간 한국시간아님
 권한문제로 안되기 시작함 => 9시간 더함
 
+5. rds생성할 때, 보안그룹 default로 잡혀있는데 해당 ec2로 맞추고 거기에 해당하는 보안그룹 열어주기..
